@@ -1,11 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ar">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.ico.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
 </head>
+
 <body>
-    
+  <header class="encabezado">
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="#presentacion">
+        <h2 class="navegacion__titulo">AkßaL</h2>
+      </a>
+      <ul class="enlaces">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="Principal">
+    <section class="presentacion" id="Presentacion">
+      <div class="presentacion__contenedor_info">
+        <h1 class="presentacion__titulo">Δlgø Ðe mí</h1>
+        <p class="presentacion__parrafo">
+          Docente, músico, compositor, cantante, interprete y programador html.
+        </p>
+        <div class="presentacion__contenedor_botones">
+          <a href="#sobre-mi" class="boton" role="button">ßr£ve Res£ñΔ</a>
+          <a href="assets/doc/cv.pdf" target="_blank" class="boton boton_oscuro" role="button">Ðes¢argΔr CV</a>
+
+        </div>
+
+      </div>
+
+    </section>
+    <article class="articulo sobre_mi" id="sobre-mi">
+      <h2 class="articulo__titulo">ßreve reseñΔ</h2>
+      <div class="articulo__contenedor_descripciones">
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__porta_retrato">
+            <img class="seccion_descripcion__imagen" src="assets/img/profile/1.jpg" alt="foto trabajando en la oficina"
+              title="trabajando en la oficina" />
+          </div>
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris" aria-label="descripcion personal">
+            <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+              Historia
+            </h3>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              En el año 2006 inicié mis estudios musicales en forma particular con el profesor Ariewl
+              Bembenutti, tomando clases de guitarra y teoria musical básica,
+              mientras que en simultaneo comence a cantar en el "Coro Polifonico de Resistencia".
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Ya para el año 2008 amplié mis estudios formales en el I.S.P.E.A. Música "L. Y. P. de
+              Elizondo",
+              donde me recibí en 2014 de Profesor de Artes en musica con especialidad en Guitarra.
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              A su vez inicie el camino de los festivales de guitarra clásica, conociendo y estudiando con
+              profesores de renombre como:
+              Victor Villadangos, Javier Bravo, Silvina Lopez y Ariel Elijovich entre otros de argentina,o
+              internacionales como:
+              Pedro Rodrigues (Portugal), Daniel Wolff (Brasil), o Eduardo Fernandez (Uruguay)
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Una vez concluidos mis estudios superiores tome la iniciativa de organizar el primer
+              Festiuval de Guitarra Clásica Puntah (sonido poderoso en idioma mataco),
+              el cual se llevo a cabo durante 5 ediciones (2014, 2015, 2016, 2017 y 2019), atrayendo a
+              guitarristas de mas de 15 provicncias distintas del país.
+            </p>
+          </div>
+        </section>
+
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris" aria-label="descripcion personal">
+            <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+              Hobbies
+            </h3>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              Como hobbies tengo varios, desde hacer jardineria, jugar juegos en linea o con mi perra,
+              cocinar, entrenar escalando y ahora ¿por que no decirlo? programar html.
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              Pero si tuviera que decirdirme por alguno creo que me quedo el de mover muebles de lugar,
+              acomodar espacios y organizar.
+
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              Aunque tampoco nunca esta de mas el juntarse con amigos a guitarrear y cambiarle la letra a
+              las canciones sobre la marcha. <br>
+              Tambien me gusta armar muebles en mis ratos libres o trabajar en algun proyecto que implique la
+              creatividad, ya sea huerta, pared de escalada, trabajo de soldadura o carpinteria.
+            </p>
+          </div>
+          <div class="seccion_descripcion__porta_retrato">
+            <img class="seccion_descripcion__imagen seccion_descripcion__imagen_variante" src="assets/img/profile/2.jpg"
+              alt="foto mientras me encontraba en una reunion conmigo mismo"
+              title="selfie en una reunion conmigo mismo" />
+          </div>
+        </section>
+      </div>
+    </article>
+    <!-- repaso article sobre mi y su estructura -->
+
+    <!-- explicacion: En la seccion que sigue agregaremos los proyectos en los que trabajaron,
+      no se preocupen si todavia no cuentan con ninguno, en el momento que comiencen a construirlos 
+      podran ir actualizando la informacion de esta seccion -->
+    <article class="articulo proyectos" id="proyectos">
+      <h2 class="articulo__titulo">Prøyectoš</h2>
+      <div class="contenedor_tarjetas_grid">
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/1.png" alt="imagen del proyecto" title="AkßaL" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Habitantes del Ser</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_1">
+              Un disco que contiene 7 canciones, cada una de ellas relacionada con un chacra especifico del cuerpo
+            </p>
+            <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+        <!-- explicacion: pueden agregar tantas tarjetas como deseen, para ejemplificar agregaremos seis. 
+            Podemos hacerlo simplemente copiando y pegando. Yo en mi caso en algunas tarjetas agregare un pequeño cambio a los botones  -->
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/jigsaw2.png" alt="imagen del proyecto" title="ScapeRoom" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_2">ScapeRoom</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino scroll_gris" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_2">
+              Entrar lo hace cualquiera,<br>
+              salir, pocos,<br><br>
+              te animas?<br><br><br>
+              tu elijes. . .
+
+            </p>
+            <a href="#" class="boton" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/3.png" alt="imagen del proyecto" title="proyecto 3" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_3">titulo</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore necessitatibus doloribus adipisci dolorum cum et
+              quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+              nihil voluptates eos enim aperiam porro architecto et?
+            </p>
+            <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/4.png" alt="imagen del proyecto" title="proyecto 4" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_4">titulo</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino scroll_gris" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore necessitatibus doloribus adipisci dolorum cum et
+              quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+              nihil voluptates eos enim aperiam porro architecto et?
+            </p>
+            <a href="#" class="boton" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/5.png" alt="imagen del proyecto" title="proyecto 5" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_5">titulo</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore necessitatibus doloribus adipisci dolorum cum et
+              quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+              nihil voluptates eos enim aperiam porro architecto et?
+            </p>
+            <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="assets/img/proyectos/6.png" alt="imagen del proyecto" title="proyecto 6" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_6">titulo</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino scroll_gris" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_6">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore necessitatibus doloribus adipisci dolorum cum et
+              quisquam dicta veniam accusamus dignissimos. Placeat eligendi
+              nihil voluptates eos enim aperiam porro architecto et?
+            </p>
+            <a href="#" class="boton" target="_blank">Ver proyecto</a>
+          </div>
+        </article>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Por ultimo deben agregar la etiqueta footer. 
+      En esta aparecera nuestra informacion de contacto y 
+      también inluiremos enlaces de navegacion y derechos. -->
+  <footer class="pie_de_pagina" role="contentinfo">
+    <!-- explicacion: la primer columna sera para nuestras redes,
+          cabe aclarar que la estructura sera similar en todos los casos y solo habrá pequeños cambios -->
+    <div class="pie_de_pagina__columna">
+      <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+      <ul class="enlaces enlaces_redes">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="https://github.com/blopablo" target="_blank"><img
+              class="enlaces__icono" src="assets/img/logos/github.png" alt="logo de github" title="github" /></a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer"
+            href="https://www.instagram.com/akbal_music_arg?igsh=MXI1ZGM4M2l3YWo5Nw==" target="_blank">
+            <img class="enlaces__icono" src="assets/img/logos/instagram.png" alt="logo de instagram"
+              title="instagram" />
+          </a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="https://www.youtube.com/@Akbal_Music_Ar"
+            target="_blank"><img class="enlaces__icono" src="assets/img/logos/youtube.png" alt="logo de X"
+              title="X" /></a>
+        </li>
+      </ul>
+    </div>
+    <!-- explicacion: la segunda columna sera para nuestros medios de contacto  -->
+    <div class="pie_de_pagina__columna">
+      <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+      <ul class="enlaces enlaces_vertical">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:mail@mail.com" target="_blank">Mail:
+            akbal.music.arg@mail.com</a>
+        </li>
+      </ul>
+    </div>
+    <!-- explicacion: la ultima columna sera para los enlaces de navegacion -->
+    <div class="pie_de_pagina__columna" role="navigation">
+      <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+      <ul class="enlaces enlaces_vertical">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos">Proyectos</a>
+        </li>
+      </ul>
+    </div>
+    <!-- por ultimo los derechos de la pagina -->
+    <div class="pie_de_pagina__copyright">
+      <p>©️Copyright 2024</p>
+    </div>
+  </footer>
+  <!-- repaso de los elementos en el footer -->
+
 </body>
+
 </html>
